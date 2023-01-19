@@ -1,0 +1,22 @@
+.tweet {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #ccc;
+    padding: 12px 0;
+}
+
+.tweet .tweet__user__image {
+    border-radius: 100%;
+    height: 48px;
+    width: 48px;
+}
+
+.tweet .tweet__data {
+    display: flex;
+    flex-direction: column;
+}
+
+.tweet .tweet__data .tweet__data__header {
+    display: flex;
+    flex-direction: row;
+}

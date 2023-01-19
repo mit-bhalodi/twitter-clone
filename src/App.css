@@ -1,0 +1,65 @@
+.main__container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  overflow: auto;
+}
+
+/* header */
+
+.header__section {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 100%;
+  max-width: 30%;
+  align-items: flex-end;
+  height: 100%;
+  padding-top: 12px;
+  border-right: 1px solid #ccc;
+}
+
+.header__section .nav__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 274px;
+  padding: 0 10px;
+  overflow: auto;
+}
+
+/* main section */
+
+.main__section {
+  flex: 1 1 100%;
+  max-width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.main__section .main__section__first {
+  flex: 1 1 100%;
+  max-width: 60%;
+  height: 100%;
+  border-right: 1px solid #ccc;
+  overflow: auto;
+}
+
+.tweets__wrapper {
+  display: flex;;
+  flex-direction: column;
+  height: 100%;
+  overflow: auto;
+}
+
+.main__section .main__section__first .header__bar {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+}
+
+.main__section .main__section__second {
+  flex: 1 1 100%;
+  max-width: 40%;
+  height: 100%;
+}
